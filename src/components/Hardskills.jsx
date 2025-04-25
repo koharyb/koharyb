@@ -12,30 +12,30 @@ const Hardskills = () => {
   return (
     <div className="mt-[40vh] animate-slideUp w-full">
 
-      <div className="CardsContainer flex flex-col justify-center items-center gap-4 mb-10 lg:grid lg:grid-cols-3 lg:grid-rows-3 lg:gap-0">
-        <div className="bg-[#ffffff] w-[30vh] h-[30vh] object-cover">
-          <img src={reactIcon} alt="" className="" />
+      <div className="CardsContainer flex flex-col justify-center items-center gap-4 mb-10 lg:grid lg:grid-cols-3 lg:grid-rows-3 lg:gap-0 border-amber-400 border-2">
+        <div className="bg-[#ffffff] w-full h-full border-amber-400 border-2">
+          <img src={reactIcon} alt="" className="w-full h-full object-contain" />
         </div>
-        <div className="bg-[#ffffff] w-[30vh] h-[30vh]">
-          <img src={tailwindIcon} alt="" className="" />
+        <div className="bg-[#ffffff] w-full h-full">
+          <img src={tailwindIcon} alt="" className="w-full h-full object-contain" />
         </div>
-        <div className="bg-[#ffffff] w-[30vh] h-[30vh]">
-          <img src={javascriptIcon} alt="" className="" />
+        <div className="bg-[#ffffff] w-full h-full">
+          <img src={javascriptIcon} alt="" className="object-contain" />
+        </div>  
+        <div className="bg-[#ffffff] w-full h-full">
+          <img src={cssIcon} alt="" className="object-contain" />
         </div>
-        <div className="bg-[#ffffff] w-[30vh] h-[30vh]">
-          <img src={cssIcon} alt="" className="" />
+        <div className="bg-[#ffffff] w-full h-full">
+          <img src={htmlIcon} alt="" className="object-contain" />
         </div>
-        <div className="bg-[#ffffff] w-[30vh] h-[30vh]">
-          <img src={htmlIcon} alt="" className="" />
+        <div className="bg-[#ffffff] w-full h-full">
+          <img src={linuxIcon} alt="" className="object-contain" />
         </div>
-        <div className="bg-[#ffffff] w-[30vh] h-[30vh]">
-          <img src={linuxIcon} alt="" className="" />
+        <div className="bg-[#ffffff] w-full h-full">
+          <img src={terminalIcon} alt="" className="object-contain" />
         </div>
-        <div className="bg-[#ffffff] w-[30vh] h-[30vh]">
-          <img src={terminalIcon} alt="" className="" />
-        </div>
-        <div className="bg-[#ffffff] w-[30vh] h-[30vh]">
-          <img src={gitIcon} alt="" className="" />
+        <div className="bg-[#ffffff] w-full h-full">
+          <img src={gitIcon} alt="" className="object-contain" />
         </div>
 
       </div>
