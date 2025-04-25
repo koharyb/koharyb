@@ -12,8 +12,8 @@ const Hardskills = () => {
   return (
     <div className="mt-[40vh] animate-slideUp w-full">
 
-      <div className="CardsContainer flex flex-col justify-center items-center gap-4 mb-10 lg:grid lg:grid-cols-3 lg:grid-rows-3 lg:gap-0 border-amber-400 border-2">
-        <div className="bg-[#ffffff] w-full h-full border-amber-400 border-2">
+      <div className="CardsContainer flex flex-col justify-center items-center gap-4 mb-10 lg:grid lg:grid-cols-3 lg:grid-rows-3 lg:gap-5">
+        <div className="bg-[#ffffff] w-full h-full">
           <img src={reactIcon} alt="" className="w-full h-full object-contain" />
         </div>
         <div className="bg-[#ffffff] w-full h-full">
