@@ -10,11 +10,11 @@ import gitIcon from "../assets/git.svg";
 
 const Hardskills = () => {
   return (
-    <div className="mt-[40vh] animate-slideUp w-full">
-      <h2 className="text-4xl text-white underline m-4 font-bold ">HARDSKILLS:</h2>
+    <div className="mt-[40vh] animate-slideUp w-full flex justify-center items-center flex-col">
+      <h2 className="text-4xl text-white m-4 font-bold lg:ml-14">HARDSKILLS</h2>
       <div
         className="CardsContainer flex flex-col justify-center items-center gap-4 mb-10  m-4
-      lg:grid lg:grid-cols-2 lg:grid-rows-3 lg:gap-5 lg:p-10 xl:p-25"
+      lg:grid lg:grid-cols-2 lg:grid-rows-3 lg:gap-5 lg:p-10 lg:w-3/4 "
       >
         <div className="bg-[#ffffff]">
           <img src={reactIcon} alt="" className="w-full h-full" />

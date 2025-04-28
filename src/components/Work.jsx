@@ -8,16 +8,16 @@ const Work = () => {
           RECENT WORK:
         </h2>
         <a href="" className="text-[#fdf9f9]">
-          www.xyz.sk
+          www.elsyslevice.sk
         </a>
         <a href="" className="text-[#fdf9f9]">
-          www.xyz.sk
+          www.vinecko.sk
         </a>
         <a href="" className="text-[#fdf9f9]">
-          www.xyz.sk
+          www.lakovnalevice.sk
         </a>
         <a href="" className="text-[#fdf9f9]">
-          www.xyz.sk
+          www.jkcatering.net
         </a>
       </div>
     </div>
