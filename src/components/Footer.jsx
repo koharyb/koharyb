@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <div className="w-full h-full bg-[#caf76f] p-4">
+      <div className="w-full h-full bg-[#caf76f] p-4 animate-slideUp">
         <h2 className="text-[#000000] text-2xl font-bold">
           Contacts
         </h2>

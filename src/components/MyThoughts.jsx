@@ -8,7 +8,7 @@ const MyThoughts = () => {
   };
 
   return (
-    <div className="m-4">
+    <div className="m-4 animate-slideUp">
       <h2 className="text-white font-bold text-2xl">My Thoughts</h2>
       <h3 className="text-white font-bold text-xl">FREAKING USB!!!</h3>
       <p className={`text-white ${isExpanded ? '' : 'line-clamp-3'} transition-all duration-300`}>
@@ -28,7 +28,7 @@ const MyThoughts = () => {
       </p>
       <button
         onClick={toggleReadMore}
-        className="text-blue-400 mt-2 hover:underline focus:outline-none"
+        className="text-blue-400 mt-2 hover:underline focus:outline-none mb-10"
       >
         {isExpanded ? "Read less..." : "Read more..."}
       </button>
