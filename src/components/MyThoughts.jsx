@@ -8,7 +8,7 @@ const MyThoughts = () => {
   };
 
   return (
-    <div className="m-4 animate-slideUp">
+    <div className="m-4 animate-slideUp mb-10">
       <h2 className="text-white font-bold text-2xl">My Thoughts</h2>
       <h3 className="text-white font-bold text-xl">FREAKING USB!!!</h3>
       <p className={`text-white ${isExpanded ? '' : 'line-clamp-3'} transition-all duration-300`}>
