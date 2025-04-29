@@ -7,18 +7,27 @@ const Work = () => {
         <h2 className="text-4xl text-[#fdf9f9] font-bold underline">
           RECENT WORK:
         </h2>
-        <a href="" className="text-[#fdf9f9]">
-          www.elsyslevice.sk
-        </a>
-        <a href="" className="text-[#fdf9f9]">
-          www.vinecko.sk
-        </a>
-        <a href="" className="text-[#fdf9f9]">
-          www.lakovnalevice.sk
-        </a>
-        <a href="" className="text-[#fdf9f9]">
-          www.jkcatering.net
-        </a>
+
+        <div className="border-b-2 border-[#353232]">
+          <a href="" className="text-[#fdf9f9]">
+            www.elsyslevice.sk
+          </a>
+        </div>
+        <div className="border-b-2 border-[#353232]">
+          <a href="" className="text-[#fdf9f9]">
+            www.vinecko.sk
+          </a>
+        </div>
+        <div className="border-b-2 border-[#353232]">
+          <a href="" className="text-[#fdf9f9]">
+            www.lakovnalevice.sk
+          </a>
+        </div>
+        <div className="border-b-2 border-[#353232]">
+          <a href="" className="text-[#fdf9f9]">
+            www.jkcatering.net
+          </a>
+        </div>
       </div>
     </div>
   );
