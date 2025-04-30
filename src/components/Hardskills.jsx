@@ -12,34 +12,34 @@ const Hardskills = () => {
   return (
     <div className="mt-[40vh] lg:mt-[10vh] animate-slideUp w-full flex flex-col items-center">
       <div className="w-full lg:w-3/4 lg:px-10">
-        <h2 className="text-4xl text-white font-bold mb-4 ml-2 ">HARDSKILLS</h2>
+        <h2 className="text-4xl text-[#f8f9fa] font-bold mb-4 ml-2 ">HARDSKILLS</h2>
 
         <div
           className="CardsContainer grid grid-cols-1 gap-4 mb-10
           md:grid-cols-4 md:grid-rows-2 lg:gap-5"
         >
-          <div className="bg-[#ffffff] m-2 md:m-0">
+          <div className="bg-[#f8f9fa] hover:bg-[#ced4da] m-2 md:m-0">
             <img src={reactIcon} alt="" className="w-full h-full" />
           </div>
-          <div className="bg-[#ffffff] m-2 md:m-0">
+          <div className="bg-[#f8f9fa] hover:bg-[#ced4da] m-2 md:m-0">
             <img src={tailwindIcon} alt="" className="w-full h-full" />
           </div>
-          <div className="bg-[#ffffff] m-2 md:m-0">
+          <div className="bg-[#f8f9fa] hover:bg-[#ced4da] m-2 md:m-0">
             <img src={javascriptIcon} alt="" className="w-full h-full" />
           </div>
-          <div className="bg-[#ffffff] m-2 md:m-0">
+          <div className="bg-[#f8f9fa] hover:bg-[#ced4da] m-2 md:m-0">
             <img src={cssIcon} alt="" className="w-full h-full" />
           </div>
-          <div className="bg-[#ffffff] m-2 md:m-0">
+          <div className="bg-[#f8f9fa] hover:bg-[#ced4da] m-2 md:m-0">
             <img src={htmlIcon} alt="" className="w-full h-full" />
           </div>
-          <div className="bg-[#ffffff] m-2 md:m-0">
+          <div className="bg-[#f8f9fa] hover:bg-[#ced4da] m-2 md:m-0">
             <img src={linuxIcon} alt="" className="w-full h-full" />
           </div>
-          <div className="bg-[#ffffff] m-2 md:m-0">
+          <div className="bg-[#f8f9fa] hover:bg-[#ced4da] m-2 md:m-0">
             <img src={terminalIcon} alt="" className="w-full h-full" />
           </div>
-          <div className="bg-[#ffffff] m-2 md:m-0">
+          <div className="bg-[#f8f9fa] hover:bg-[#ced4da] m-2 md:m-0">
             <img src={gitIcon} alt="" className="w-full h-full" />
           </div>
         </div>

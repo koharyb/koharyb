@@ -9,8 +9,8 @@ const MyThoughts = () => {
 
   return (
     <div className="m-4 animate-slideUp mb-10">
-      <h2 className="text-white font-bold text-2xl">My Thoughts</h2>
-      <h3 className="text-white font-bold text-xl">FREAKING USB-C connector!!!</h3>
+      <h2 className="text-[#f8f9fa] font-bold text-2xl">My Thoughts</h2>
+      <h3 className="text-[#f8f9fa] font-bold text-xl">FREAKING USB-C connector!!!</h3>
       <p
         className={`text-white ${
           isExpanded ? "" : "line-clamp-3"
