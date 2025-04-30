@@ -10,21 +10,25 @@ const MyThoughts = () => {
   return (
     <div className="m-4 animate-slideUp mb-10">
       <h2 className="text-white font-bold text-2xl">My Thoughts</h2>
-      <h3 className="text-white font-bold text-xl">FREAKING USB!!!</h3>
-      <p className={`text-white ${isExpanded ? '' : 'line-clamp-3'} transition-all duration-300`}>
-        You know it... A maybe hundred device with USB-C port and its freaking
-        does not work again!... its hard to believed it but worshiped all
-        bellowed USB port. A holy grail of for all of us masses of unworthi
-        peasants, piece of technollogy which meant a new era for all of us
-        happy cityzens. A mass of indoctrinated people from all around a
-        globe... melting pod of the nations... Sure !!! And here in small
-        piece of land somewhere under Carpathian mountains its me! a Exhausted
-        individum. overgrowned by the insane power of that Goverment Moloch
-        over my shoulders. Exhausted mumiliated small creature sitting in the
-        corner with his low end Lenovo laptop in his hands and spitting a
-        sulfur on all around trying to catch some of link of normalize from
-        surrounding etherum... But no i have only a usb-C here... Nevermind
-        maybe next time.
+      <h3 className="text-white font-bold text-xl">FREAKING USB-C connector!!!</h3>
+      <p
+        className={`text-white ${
+          isExpanded ? "" : "line-clamp-3"
+        } transition-all duration-300`}
+      >
+        You know it... Maybe a hundred devices with a USB-C port — and it
+        freaking doesn’t work again! It’s hard to believe it, but we all
+        worshipped the beloved USB port. The holy grail for all of us — the
+        masses of unworthy peasants — a piece of technology that was supposed to
+        usher in a new era for us happy citizens. A mass of indoctrinated people
+        from all around the globe... a melting pot of nations... Sure!!! And
+        here I am, in a small patch of land somewhere beneath the Carpathian
+        Mountains — just me. An exhausted individual, overwhelmed by the insane
+        power of the government Moloch breathing down my neck. A humiliated,
+        worn-down creature sitting in the corner with his low-end Lenovo laptop,
+        spitting sulfur in every direction, trying to catch some faint signal of
+        normalcy from the surrounding ether... But no. I have only a USB-C port
+        here. Never mind. Maybe next time.
       </p>
       <button
         onClick={toggleReadMore}

@@ -3,29 +3,29 @@ import React from "react";
 const Work = () => {
   return (
     <div className="lg:max-w-[200vh] lg:flex lg:items-center lg:justify-center">
-      <div className="flex flex-col m-4 mb-10 animate-slideUp">
-        <h2 className="text-4xl text-[#fdf9f9] font-bold underline">
-          RECENT WORK:
+      <div className="flex flex-col m-4 mb-10 animate-slideUp lg:w-[1000px]">
+        <h2 className="text-4xl text-[#f3d9d9] font-bold lg:mb-10">
+          RECENT WORK
         </h2>
 
-        <div className="border-b-2 border-[#353232] lg:pb-8">
-          <a href="" className="text-[#fdf9f9]">
-            www.elsyslevice.sk
+        <div className="border-b-2 border-[#353232] lg:pb-8 lg:pt-2">
+          <a href="" className="text-[#525252] hover:text-[#f3d9d9] ">
+            www.xyz.sk
+          </a>
+        </div>  
+        <div className="border-b-2 border-[#353232] lg:pb-8 lg:pt-2">
+          <a href="" className="text-[#525252] hover:text-[#f3d9d9]">
+            www.123.sk
           </a>
         </div>
-        <div className="border-b-2 border-[#353232] lg:pb-8">
-          <a href="" className="text-[#fdf9f9]">
-            www.vinecko.sk
+        <div className="border-b-2 border-[#353232] lg:pb-8 lg:pt-2">
+          <a href="" className="text-[#525252] hover:text-[#f3d9d9]">
+            www.55555.sk
           </a>
         </div>
-        <div className="border-b-2 border-[#353232] lg:pb-8">
-          <a href="" className="text-[#fdf9f9]">
-            www.lakovnalevice.sk
-          </a>
-        </div>
-        <div className="border-b-2 border-[#353232] lg:pb-8">
-          <a href="" className="text-[#fdf9f9]">
-            www.jkcatering.net
+        <div className="border-b-2 border-[#353232] lg:pb-8 lg:pt-2">
+          <a href="" className="text-[#525252] hover:text-[#f3d9d9]">
+            www.husker.net
           </a>
         </div>
       </div>
