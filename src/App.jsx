@@ -3,8 +3,10 @@ import Header from './components/Header'
 import Hardskills from './components/Hardskills'
 import Softskills from './components/Softskills'
 import Work from './components/Work'
-import Footer from './components/Footer'
 import MyThoughts from './components/MyThoughts'
+import Before from './components/Before'
+import Footer from './components/Footer'
+
 
 
 
@@ -18,6 +20,7 @@ function App() {
      <Softskills/>
      <Work/>
      <MyThoughts/>
+     <Before/>
      <Footer/>
     </div>
   )
