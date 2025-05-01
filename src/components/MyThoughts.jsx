@@ -13,7 +13,7 @@ const MyThoughts = () => {
       <h3 className="text-[#f8f9fa] font-bold text-xl">FREAKING USB-C connector!!!</h3>
       <p
         className={`text-white ${
-          isExpanded ? "" : "line-clamp-3"
+          isExpanded ? "" : "line-clamp-3 md:line-clamp-1"
         } transition-all duration-300`}
       >
         You know it... Maybe a hundred devices with a USB-C port — and it
