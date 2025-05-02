@@ -4,7 +4,7 @@ const Work = () => {
   return (
     <div className="lg:max-w-[200vh] lg:flex lg:items-center lg:justify-center">
       <div className="flex flex-col m-4 mb-10 animate-slideUp lg:w-[1000px]">
-        <h2 className="text-4xl text-[#f3d9d9] font-bold lg:mb-10">
+        <h2 className="text-4xl text-[#f8f9fa] font-bold lg:mb-10">
           RECENT WORK
         </h2>
 
