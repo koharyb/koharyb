@@ -10,17 +10,17 @@ const Work = () => {
 
         <div className="border-b-2 border-[#353232] lg:pb-8 lg:pt-2">
           <a href="" className="text-[#525252] hover:text-[#f3d9d9] ">
-            www.xyz.sk
+            www.zedolzetor.sk
           </a>
         </div>  
         <div className="border-b-2 border-[#353232] lg:pb-8 lg:pt-2">
           <a href="" className="text-[#525252] hover:text-[#f3d9d9]">
-            www.123.sk
+            www.blablablabla.sk
           </a>
         </div>
         <div className="border-b-2 border-[#353232] lg:pb-8 lg:pt-2">
           <a href="" className="text-[#525252] hover:text-[#f3d9d9]">
-            www.55555.sk
+            www.odpocetfackyteckacom.sk
           </a>
         </div>
         <div className="border-b-2 border-[#353232] lg:pb-8 lg:pt-2">
