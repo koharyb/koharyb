@@ -7,6 +7,11 @@ import MyThoughts from './components/MyThoughts'
 import Before from './components/Before'
 import Footer from './components/Footer'
 
+// update sequence : 
+// npm run build
+//  than update a repo add/commit/push
+//  than npm run deploy
+
 
 
 
