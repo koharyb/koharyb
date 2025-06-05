@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 
 const MyThoughts = () => {
-  // Track expanded state per section, initially all false
+
   const [expandedSections, setExpandedSections] = useState([false, false, false]);
 
-  // Toggle one section by index
+
   const toggleReadMore = (index) => {
     setExpandedSections((prev) =>
       prev.map((expanded, i) => (i === index ? !expanded : expanded))
     );
   };
 
-  // Your data to map over (better than hardcoding repeated JSX)
+
   const sections = [
     {
       title: "FREAKING USB-C connector!!!",
