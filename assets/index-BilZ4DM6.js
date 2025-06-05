@@ -73,11 +73,11 @@ Error generating stack: `+a.message+`
         guy who tried to set up a new project in Godot and spend 3 hours
         debugging, only to realize (once again) I did not restart the terminal
         session. This must be the 69th time this year... So, you know, the
-        classic scene followed — me rolling on the floor, tearing my hair out,
+        classic scene followed me rolling on the floor, tearing my hair out,
         completely blind to the problem that was right under my nose. Ok, never
         mind. Just another tantrum in my eternal struggle with the universe. But
-        don’t worry, Boris — we will get there. Just remember: Do NOT forget to
-        restart your terminal session! And yes, send that laptop in for repair —
+        don’t worry, Boris we will get there. Just remember: Do NOT forget to
+        restart your terminal session! And yes, send that laptop in for repair
         that freaking USB port is driving you mad!`},{title:"Just buy a old ThinkPad!",text:`Okay, it’s 1:30 in the morning. I can’t sleep again, and my rachitic
         fingers are hovering over the keyboard with an undeniable need to
         release another thought into the endless spaces of the internet. So,
@@ -87,7 +87,7 @@ Error generating stack: `+a.message+`
         ask. Aaaach, I think this makes it the 11th or 12th laptop I’ve
         destroyed during my career as a Robot Destroyer. Of course, the problem
         was that freakin' USB-C port. Never mind, Boris. Just breathe. It’s
-        gonna get better—I promise. Okay, but back to the topic. I needed to
+        gonna get better I promise. Okay, but back to the topic. I needed to
         finish some work ASAP, so I couldn’t wait for the all-mighty sillicon-God (my
         main laptop) to return from the tech heavens. I needed a fast, reliable
         replacement. So, I visited one of our local used hardware online shops.
