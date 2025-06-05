@@ -1,12 +1,12 @@
 import React from "react";
-import ReactIcon from "./icons/ReactIcon.jsx";
-import Tailwindcss from "./icons/Tailwind.jsx";
-import Javascript from "./icons/Javascript.jsx";
-import Css from "./icons/Css.jsx";
-import Html from "./icons/Html.jsx";
-import Linux from "./icons/Linux.jsx";
-import Terminal from "./icons/Terminal.jsx";
-import Git from "./icons/Git.jsx";
+import ReactIcon from "./icons/hardskills/ReactIcon.jsx";
+import Tailwindcss from "./icons/hardskills/Tailwind.jsx";
+import Javascript from "./icons/hardskills/Javascript.jsx";
+import Css from "./icons/hardskills/Css.jsx";
+import Html from "./icons/hardskills/Html.jsx";
+import Linux from "./icons/hardskills/Linux.jsx";
+import Terminal from "./icons/hardskills/Terminal.jsx";
+import Git from "./icons/hardskills/Git.jsx";
 
 const icons = [
   { component: ReactIcon, alt: "React", description: "React", hoverColor:"hover:text-[#00d8ff]"  },

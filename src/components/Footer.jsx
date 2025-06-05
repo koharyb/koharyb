@@ -1,8 +1,8 @@
 import React from "react";
-import Phone from "./icons/Phone.jsx"
-import Email from "./icons/Email.jsx";
-import Linkedin from "./icons/Linkedin.jsx";
-import Discord from "./icons/Discord.jsx";
+import Phone from "./icons/footer/Phone.jsx";
+import Email from "./icons/footer/Email.jsx";
+import Linkedin from "./icons/footer/Linkedin.jsx";
+import Discord from "./icons/footer/Discord.jsx";
 
 const Footer = () => {
   return (
