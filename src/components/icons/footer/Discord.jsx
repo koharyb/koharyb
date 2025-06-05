@@ -4,7 +4,7 @@ const Discord = ({className}) => {
   return (
     <div>
       <svg
-        className={`fill-current ${className}`}
+        className={`stroke-current ${className}`}
         viewBox="0 0 48 48"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
