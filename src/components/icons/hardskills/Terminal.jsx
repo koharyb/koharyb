@@ -11,9 +11,9 @@ const Terminal = ({className}) => {
       >
         <path
           d="M0.792725 12.2929L5.08562 8.00002L0.792725 3.70712L2.20694 2.29291L7.91405 8.00002L2.20694 13.7071L0.792725 12.2929Z"
-          fill="#000000"
+          fill="#currenColor"
         />
-        <path d="M7.00006 15H15.0001V13H7.00006V15Z" fill="#000000" />
+        <path d="M7.00006 15H15.0001V13H7.00006V15Z" fill="#currentColor" />
       </svg>
     </div>
   );
