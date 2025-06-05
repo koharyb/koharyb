@@ -1,21 +1,24 @@
 import React, { useState } from "react";
 
 const MyThoughts = () => {
-  // Track expanded state per section, initially all false
-  const [expandedSections, setExpandedSections] = useState([false, false, false]);
+  const [isExpanded, setIsExpanded] = useState(false);
 
-  // Toggle one section by index
-  const toggleReadMore = (index) => {
-    setExpandedSections((prev) =>
-      prev.map((expanded, i) => (i === index ? !expanded : expanded))
-    );
+  const toggleReadMore = () => {
+    setIsExpanded(!isExpanded);
   };
 
-  // Your data to map over (better than hardcoding repeated JSX)
-  const sections = [
-    {
-      title: "FREAKING USB-C connector!!!",
-      text: `You know it... Maybe a hundred devices with a USB-C port — and it
+  return (
+    <div className="m-4 animate-slideUp mb-10">
+      <h2 className="text-[#f8f9fa] font-bold text-2xl">My Thoughts</h2>
+      <h3 className="text-[#f8f9fa] font-bold text-xl">
+        FREAKING USB-C connector!!!
+      </h3>
+      <p
+        className={`text-white ${
+          isExpanded ? "" : "line-clamp-3 md:line-clamp-1"
+        } transition-all duration-300`}
+      >
+        You know it... Maybe a hundred devices with a USB-C port — and it
         freaking doesn’t work again! It’s hard to believe it, but we all
         worshipped the beloved USB port. The holy grail for all of us — the
         masses of unworthy peasants — a piece of technology that was supposed to
@@ -27,11 +30,24 @@ const MyThoughts = () => {
         worn-down creature sitting in the corner with his low-end Lenovo laptop,
         spitting sulfur in every direction, trying to catch some faint signal of
         normalcy from the surrounding ether... But no. I have only a USB-C port
-        here. Never mind. Maybe next time.`,
-    },
-    {
-      title: "Dont forget on the terminal restart :)",
-      text: `Ok ok, don’t be hasty, and remember: never forget to restart your
+        here. Never mind. Maybe next time.
+      </p>
+      <button
+        onClick={toggleReadMore}
+        className="text-blue-400 mt-2 hover:underline focus:outline-none mb-10"
+      >
+        {isExpanded ? "Read less..." : "Read more..."}
+      </button>
+
+      <h3 className="text-[#f8f9fa] font-bold text-xl">
+        Dont forget on the terminal restart :)
+      </h3>
+      <p
+        className={`text-white ${
+          isExpanded ? "" : "line-clamp-3 md:line-clamp-1"
+        } transition-all duration-300`}
+      >
+        Ok ok, don’t be hasty, and remember: never forget to restart your
         terminal session after updates or some installs... Yes, I am that dumb —
         able to try setting up a new project in Godot and spend 3 hours
         debugging, only to realize (once again) I didn’t restart the terminal
@@ -41,11 +57,24 @@ const MyThoughts = () => {
         mind. Just another tantrum in my eternal struggle with the universe. But
         don’t worry, Boris — we will get there. Just remember: Do NOT forget to
         restart your terminal session! And yes, send that laptop in for repair —
-        that freaking USB port is driving you mad!`,
-    },
-    {
-      title: "Just buy a old ThinkPad!",
-      text: `Okay, it’s 1:30 in the morning. I can’t sleep again, and my rickety
+        that freaking USB port is driving you mad!
+      </p>
+      <button
+        onClick={toggleReadMore}
+        className="text-blue-400 mt-2 hover:underline focus:outline-none mb-10"
+      >
+        {isExpanded ? "Read less..." : "Read more..."}
+      </button>
+
+      <h3 className="text-[#f8f9fa] font-bold text-xl">
+        Just buy a old ThinkPad!
+      </h3>
+      <p
+        className={`text-white ${
+          isExpanded ? "" : "line-clamp-3 md:line-clamp-1"
+        } transition-all duration-300`}
+      >
+        Okay, it’s 1:30 in the morning. I can’t sleep again, and my rickety
         fingers are hovering over the keyboard with an undeniable need to
         release another thought into the endless space of the internet. So,
         let’s head back to the start of this week. It happened again... Another
@@ -66,36 +95,14 @@ const MyThoughts = () => {
         Now, after a quick RAM swap, my hero is under my fingers, purring with
         the satisfied sound of 20GB of RAM. And honestly? I’m quite convinced I
         won’t go back to his younger brother, even when he comes back from the
-        SPA. No, really guys... Everyone should own an old ThinkPad!!!`,
-    },
-  ];
-
-  return (
-    <div className="m-4 animate-slideUp mb-10">
-      <h2 className="text-[#f8f9fa] font-bold text-2xl mb-6">My Thoughts</h2>
-
-      {sections.map((section, i) => {
-        const isExpanded = expandedSections[i];
-
-        return (
-          <div key={i} className="mb-10">
-            <h3 className="text-[#f8f9fa] font-bold text-xl">{section.title}</h3>
-            <p
-              className={`text-white ${
-                isExpanded ? "" : "line-clamp-3 md:line-clamp-1"
-              } transition-all duration-300`}
-            >
-              {section.text}
-            </p>
-            <button
-              onClick={() => toggleReadMore(i)}
-              className="text-blue-400 mt-2 hover:underline focus:outline-none"
-            >
-              {isExpanded ? "Read less..." : "Read more..."}
-            </button>
-          </div>
-        );
-      })}
+        SPA. No, really guys... Everyone should own an old ThinkPad!!!
+      </p>
+      <button
+        onClick={toggleReadMore}
+        className="text-blue-400 mt-2 hover:underline focus:outline-none mb-10"
+      >
+        {isExpanded ? "Read less..." : "Read more..."}
+      </button>
     </div>
   );
 };
